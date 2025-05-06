@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Meet Transcriber",
+    "version": "1.0",
+    "permissions": ["tabCapture", "scripting", "activeTab", "tabs"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Transcriber"
+    }
+  }
+  
